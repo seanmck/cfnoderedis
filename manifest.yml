@@ -1,0 +1,7 @@
+---
+applications:
+  - name: noderedis
+    memory: 512m
+    command: node index.js
+    services:
+      - seanmckrediscache
