@@ -1,7 +1,7 @@
 ---
 applications:
-  - name: noderedis
+  - name: redisdemo 
     memory: 512m
     command: node index.js
     services:
-      - seanmckrediscache
+      - redisdemo3
