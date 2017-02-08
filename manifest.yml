@@ -1,7 +1,8 @@
 ---
 applications:
-  - name: redisdemo 
+  - name: cfredisdemo 
+    buildpack: nodejs_buildpack
     memory: 512m
     command: node index.js
     services:
-      - redisdemo3
+      - cfredisdemosvc 
