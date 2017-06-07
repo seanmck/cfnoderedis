@@ -21,7 +21,7 @@ Open `config.json` and set the following parameters:
 From the CF CLI, run:
 
 ```bash
-cf create-service azure-rediscache <plan> <servicename>
+cf create-service azure-rediscache <plan> <servicename> -c config.json
 ```
 
 Where plan is one of basic, standard, premium and servicename is the name of the service to be created in Cloud Foundry, and thus the name that your app will bind to.
