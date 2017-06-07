@@ -1,0 +1,13 @@
+{
+  "resourceGroup": "seanmckservicebrokerrg",
+  "cacheName": "ostcdemo",
+  "parameters": {
+    "location": "westus",
+    "enableNonSslPort": false,
+    "sku": {
+      "name": "Basic",
+      "family": "C",
+      "capacity": 0
+    }
+  }
+}
