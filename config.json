@@ -1,6 +1,6 @@
 {
-  "resourceGroup": "seanmckservicebrokerrg",
-  "cacheName": "ostcdemo",
+  "resourceGroup": "cfdemoservicebrokerrg",
+  "cacheName": "cfwebinardemo",
   "parameters": {
     "location": "westus",
     "enableNonSslPort": false,
